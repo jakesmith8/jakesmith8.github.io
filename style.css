@@ -1,0 +1,135 @@
+body {
+    background-color:#FFFFFF;
+    color:black;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+h1 h2 h3 h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav{
+  padding-bottom: 18px;    
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .link-element {
+    float: left;
+    margin: 0;
+  }
+  
+  .link-element .nav-header-links {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  .link-element .nav-header-links:hover:not(.active) {
+    background-color: #111;
+  }
+
+  #active {
+    background-color: #E87722;
+  }
+
+#main-header {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  min-width: 1300px;
+  width: 84%;
+  height: 300px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #861F41;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+#headshot-size {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-color: #E87722;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 3px;
+}
+
+
+#first-glance-info {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 0;
+  position: relative;
+  padding-top: 0;
+}
+
+#about-me {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+  max-width: 30%;
+  margin-left: 10%;
+}
+
+#about-me-header {
+  text-align: center;
+}
+
+#about-me-text {
+  line-height: 2em;
+}
+
+#contact-info-section {
+  width: 25%;
+  padding-left: 2%;
+  height: 100%;
+}
+
+.section-header {
+  padding-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+}
+
+#description-header {
+  padding-top: 10px;
+  font-size: larg;
+}
+
+.contact-info-text {
+padding-left: 10%;
+text-align: left;
+}
+
+.contact-info {
+margin-left: 25%;
+padding-top: 5%;
+padding-bottom: 1%;
+text-align: left;
+}
+
+
+
