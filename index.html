@@ -2,154 +2,199 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32192ee323.js" crossorigin="anonymous"></script>
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
     <meta charset="utf-8">
     <title>Jake's Resume</title>
 </head>
 
 <body>
-    <section class="nav">
-        <nav>
-            <a href="#contact-info">Contact Information</a>
-            <a href="#work-experience">Workforce Experience</a>
-            <a href="#school-experience">Education</a>
-            <a href="#skills-experience">Skills and Interests</a>
-        </nav>
-    </section>
-    <a href="contact-info"></a>
-    <section class="contact-info">
-        <h2 id="section-header">Contact Info</h3>
-            <p>
-                <span id="Name"> Jacob Smith<br></span>
-                <span id="email">Jake8@vt.edu<br></span>
-                <span id="phone-number">(434) 944-2063</span>
-                <span id="address">Blacksburg, VA</span>
+    <div id="nav">
+        <ul id="nav-list">
+            <li class="link-element"><a id="active" class="nav-header-links" href="#nav">About Me</a></li>
+            <li class="link-element"><a class="nav-header-links" href="#work-experience">Workforce Experience</a></li>
+            <li class="link-element"><a class="nav-header-links" href="#school-experience">Education</a></li>
+            <li class="link-element"><a class="nav-header-links" href="#skills-experience">Skills and Interests</a></li>
+        </ul>
+    </div>
+    <div id="main-header">
+        <img id="headshot-size" src="./images/headshot.jpg">
+
+        <div id="first-glance-info">
+            <h1 id="name-header">Jacob Smith</h1>
+            <h3 id="description-header">Junior Full Stack Software Developer</h3>
+                <div class="contact-info">
+                    <i class="fa-solid fa-envelope"></i><span class="contact-info-text">Jake8@vt.edu</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-phone"></i><span class="contact-info-text">(434) 944-2063</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-address-card"></i><span class="contact-info-text">Blacksburg, VA</span>
+                </div>
+        </div>
+        <div id="about-me">
+            <h1 id="about-me-header">About Me</h1>
+            <p id="about-me-text">
+                I'm a hokie that's set to graduate in the Fall of 2022 with a Bachelors in Computer Science.
+                I have over 2 years of experience working on an integrations team. I work in Angular TypeScript
+                on our front-end, TypeScript/JavaScript for out middleswares, and use PostgreSQL in our back-end.
+                I'm looking for a position where I can continue to expand my knowledge.
+
             </p>
-    </section>
-    <a name="work-experience"></a>
-        <section class="work-experience">
-            <h3 id="section-header">Work Experience</h3>
-            <h4 class="title">Discovery Education</h4>
-            <h4 class="timeline">June 2020 - Present</h4>
-            <h5 id='job-title'><i>Junior Full Stack Developer</i></h5>
-            <ul class="duty-list">
-                <li>
-                    Worked on integrations team for IT Department.
-                </li>
-                <li>
-                    Helped create a SPA for IT Department to track and display employees and their licenses, devices,
-                    software, etc.
-                </li>
-                <li>
-                    Worked on middleware solution tracking employees from multiple sources and updating AzureAD with
-                    employee data.
-                </li>
-                <li>
-                    Experience with azure devops and azure function apps.
-                </li>
-                <li>
-                    Used PostgreSQL database to store and retrieve data.
-                </li>
-                <li>
-                    Experience with Salesforce API.
-                </li>
-
-            </ul>
-        </section>
-        <section class="work-experience">
-            <h4 id="work-name">Rackspace</h4>
-            <h4 class="timeline">Summer 2019</h4>
-            <h5 id="job-title"><i>Software Developer Internship</i></h5>
-            <ul class="duty-list">
-                <li>
-                    Rackspace provides email and cloud hosting services.
-                </li>
-                <li>
-                    Worked on Anti-Abuse team to catch and filter spam.
-                </li>
-                <li>
-                    When I joined the team, email hosting for inbound and outbound mail was hosted on a single redis
-                    server.
-                    My Project was to set up a second Redis server on Linux OS using Python to track inbound and
-                    outbount
-                    mail seperately.
-                </li>
-            </ul>
-        </section>
-        <a name="school-experience"></a>
-        <section class="school-experience">
-            <h3 id="section-header">Education</h3>
-            <h4 id="school">Virginia Tech</h4>
-            <h4 id="grad-date">Expected Graduation: Fall 2022</h4>
-            <h5 id="degree"><i>Bachelors of Computer Science</i></h5>
-            <p id=" Notable Classes"> Notable Classes</p>
-            <ul>
-                <li>
-                    Design of Information
-                </li>
-                <li>
-                    Data & Algorithm Analysis
-                </li>
-                <li>
-                    Human Computer Interaction
-                </li>
-                <li>
-                    GUI Programming
-                </li>
-            </ul>
-        </section>
-        <a name="skills-experience"></a>
-        <section class="skills-experience">
-            <h3 id="section-header">Skills and Interests</h3>
-            <h4 id='programming-lang'>Programming Languages</h4>
-            <ul id='programming-list'>
-                <li>
-                    JavaScript/TypeScript with Angular Framework
-                </li>
-                <li>
-                    PostgreSQL
-                </li>
-                <li>
-                    C
-                </li>
-                <li>
-                    Java
-                </li>
-                <li>
-                    Python <i>(Less Experience)</i>
-                </li>
-            </ul>
-            <h4 id='software skills'>Software/Systems</h4>
-            <ul id='software-list'>
-                <li>
-                    Microsoft Azure
-                </li>
-                <li>
-                    Azure Devops
-                </li>
-                <li>
-                    GitHub
-                </li>
-                <li>
-                    DataGrip
-                </li>
-                <li>
-                    Windows
-                </li>
-            </ul>
-            <h4 id='Hobbies'>Hobbies/Interests</h4>
-            <div>
-                <ul id='Hobbies-list'>
-                    <li>
-                        I have a goldendoodle named Barney. He just turned 1!
-                    </li>
-                    <li>
-                        I love to cook and bake, especially sourdough bread.
-                    </li>
-
-                </ul>
-                <img src="https://i.imgur.com/V01ier8.jpeg" alt="Barney" width="300" height="400">
+        </div>
+    </div>
+    <div id="left-section">
+        <h1 class="section-header">Work Experience</h1>
+        <section id="work-experience">
+            <div class="dates">
+                <h2 class="title">Discovery Education</h2>
+                <h3>June 2020 - Present</h3>
+                <h3 id='job-title'>Junior Full Stack Developer</h3>
+            </div>
+            <div class="item-description">
+                    <p>
+                        Worked on integrations team for IT Department. Helped create a SPA for IT Department to track and display employees and their licenses,
+                        devices, software, etc. Worked on middleware solution tracking employees from multiple sources and updating AzureAD with
+                        employee data. Experience with azure devops and azure function apps. Used PostgreSQL database to store and retrieve data.
+                        Experience with Salesforce API.
+                    </p>
+                    
             </div>
         </section>
+        <section id="work-experience">
+            <div class="dates">
+                <h2 id="work-name">Rackspace</h2>
+                <h3>Summer 2019</h3>
+                <h3 id="job-title">Software Developer Internship</h3>
+            </div>
+            <div class="item-description">
+                    <p>
+                        Rackspace provides email and cloud hosting services. Worked on Anti-Abuse team to catch and filter spam.
+                        When I joined the team, email hosting for inbound and outbound mail was hosted on a single redis
+                        server. My Project was to set up a second Redis server on Linux OS using Python to track inbound and
+                        outbount mail seperately.
+                    </p>
+            </div>
+
+        </section>
+        <h1 class="section-header">Education</h1>
+        <section id="school-experience">
+            <div class="dates">
+                <h2 id="school">Virginia Tech</h2>
+                <h3>Expected Graduation: Fall 2022</h3>
+                <h3>Bachelors of Computer Science</h3>
+            </div>
+            <div class="item-description">
+                <h3>Notable Classes</h3>
+                <ul>
+                    <li class="classes-list-icon">
+                        Design of Information
+                    </li>
+                    <li class="classes-list-icon">
+                        Data & Algorithm Analysis
+                    </li>
+                    <li class="classes-list-icon">
+                        Human Computer Interaction
+                    </li>
+                    <li class="classes-list-icon">
+                        GUI Programming
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div id="middle-section">
+        <section id="skills-experience">
+            <h2 class="section-header">Skills</h2>
+            <div>
+                <div id="programming-skills">
+                    <h4>Programming Languages</h4>
+                    <ul>
+                        <li>
+                            JavaScript/TypeScript with
+                        </li>
+                        <li>
+                            Angular
+                        </li>
+                        <li>
+                            PostgreSQL
+                        </li>
+                        <li>
+                            C
+                        </li>
+                        <li>
+                            Java
+                        </li>
+                        <li>
+                            Python <i>(Less Experience)</i>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div id="software-skills">
+                    <h4>Software/Systems</h4>
+                    <ul>
+                        <li>
+                            Microsoft Azure
+                        </li>
+                        <li>
+                            Azure Devops
+                        </li>
+                        <li>
+                            GitHub
+                        </li>
+                        <li>
+                            DataGrip
+                        </li>
+                        <li>
+                            Windows
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="interests">
+            <h2 class="section-header">A little about me</h2>    
+                <div id='Hobbies-list'>
+                    <ul >
+                        <li>
+                            I have a goldendoodle named Barney that just turned 1.<br>
+                            He loves the snow!<br><br>
+                        </li>
+                        <li>
+                            I love to cook and bake, especially sourdough bread.
+                        </li>
+    
+                    </ul>
+                    <img id="image-bread" src="./images/bread.jpg" alt="Bread">
+                </div>   
+        </section>
+
+    </div>
+
+    <div id="right-section">
+        <section>
+            <h2 class="section-header">Project Links</h2>
+            <ul id='project-list'>
+                <li class="coding-tag">
+                    <a href="https://github.com/jakesmith8/jakesmith8.github.io">Resume Website</a>
+                </li>
+                <li class="coding-tag">
+                    <a href="https://github.com/jakesmith8/RockPaperScissors">Rock Paper Scissors Web App</a>
+                </li>
+
+            </ul>
+        </section>
+        <img id="image-barney" src="./images/barney.jpeg" alt="Barney">
+    </div>
+
+
+
 </body>
 
 </html>

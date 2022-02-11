@@ -1,0 +1,244 @@
+body {
+    background-image: url("./images/limestone-background.jpg"); 
+    color:black;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+h1 h2 h3 h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+#nav{
+  padding-bottom: 18px;    
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:99;
+  }
+  
+  .link-element {
+    float: left;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  
+  .link-element .nav-header-links {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .link-element .nav-header-links:hover:not(.active) {
+    background-color: #111;
+  }
+
+  #active {
+    background-color: #E87722;
+  }
+
+#main-header {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  min-width: 1300px;
+  width: 84%;
+  height: 300px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #861F41;
+  display: inline-block;
+  overflow: hidden;
+  color: #E5E1E6;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+
+#headshot-size {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-color: #E87722;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 3px;
+}
+
+
+#first-glance-info {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 0;
+  position: relative;
+  padding-top: 0;
+}
+
+#about-me {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+  max-width: 30%;
+  margin-left: 10%;
+}
+
+#about-me-header {
+  text-align: center;
+}
+
+#about-me-text {
+  line-height: 1.5em;
+  font-size: 25px;
+}
+
+#contact-info-section {
+  width: 25%;
+  padding-left: 2%;
+  height: 100%;
+}
+
+.section-header {
+  padding-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+}
+
+#description-header {
+  padding-top: 10px;
+  font-size: large;
+}
+
+.contact-info-text {
+padding-left: 10%;
+text-align: left;
+font-size: 25px;
+}
+
+.contact-info {
+margin-left: 25%;
+padding: 2%;
+text-align: left;
+}
+
+.dates {
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: top;
+}
+
+.item-description {
+  margin-left: 75px;
+  display: inline-block;
+  max-width: 60%;
+  vertical-align: top;
+}
+
+#programming-skills {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#software-skills {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+  overflow: hidden;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size:30px;
+  padding-bottom: 3%;
+}
+
+#left-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+  padding-left: 200px;
+}
+
+#middle-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+#right-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 10%;
+}
+
+#Hobbies-list {
+  width: 50%;
+  vertical-align: top;
+}
+
+#image-barney {
+  width: 700px;
+  height: auto;
+  vertical-align: top;
+  padding-top: 300px;
+}
+
+#image-bread {
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+}
+
+.coding-tag::before {
+  font-family: 'FontAwesome';
+  content: '\f121';
+}
+
+.classes-list-icon::before {
+  font-family: 'FontAwesome';
+  content: '\f19d';
+}
+
+.classes-list-icon {
+  margin: 10px 0;
+  width: 400px;
+}
