@@ -1,6 +1,7 @@
+/* The following styling is for formatting general tags*/
 body {
-    background-image: url("./images/limestone-background.jpg"); 
-    color:black;
+  background-image: url("./images/limestone-background.jpg");
+  color: black;
 }
 
 p {
@@ -14,7 +15,7 @@ h1 h2 h3 h4 {
 
 h1 {
   font-size: 40px;
-
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -29,46 +30,110 @@ h4 {
   font-size: 28px;
 }
 
-#nav{
-  padding-bottom: 18px;    
+ul {
+  list-style: none;
 }
 
+li {
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+
+/* Sets the nav tabs to float left */
+.link-element {
+  float: left;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+/* Styling for nav elements*/
+.link-element .nav-header-links {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Color for nav tab that is not selected*/
+.link-element .nav-header-links:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Styling for each of the section Headers */
+.section-header {
+  padding-top: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+/* Styling for contact info text in the header */
+.contact-info-text {
+  padding-left: 10%;
+  text-align: left;
+  font-size: 25px;
+}
+
+/* Alignment for contact info section in the header */
+.contact-info {
+  margin-left: 25%;
+  padding: 2%;
+  text-align: left;
+}
+
+/* Alignment for dates section of work/education section */
+.dates {
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: top;
+}
+
+/* Styling for text of work/education section */
+.item-description {
+  margin-left: 75px;
+  display: inline-block;
+  max-width: 60%;
+  vertical-align: top;
+}
+
+/* Styling for list elements to use icons for bullets */
+.classes-list-icon::before {
+  font-family: 'FontAwesome';
+  content: '\f19d';
+}
+
+/* Alignment for classes list */
+.classes-list-icon {
+  margin: 10px 0;
+  width: 400px;
+}
+
+/* Add padding to the bottom of the nav bar to help with spacing the header element*/
+#nav {
+  padding-bottom: 18px;
+}
+
+/* Nav bar styling */
 #nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:99;
-  }
-  
-  .link-element {
-    float: left;
-    margin: 0;
-    padding-bottom: 0;
-  }
-  
-  .link-element .nav-header-links {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin: 0;
-    font-size: 20px;
-  }
-  
-  .link-element .nav-header-links:hover:not(.active) {
-    background-color: #111;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
 
-  #active {
-    background-color: #E87722;
-  }
+/* Highlights the selected nav tab in nav bar */
+#active {
+  background-color: #E87722;
+}
 
+/* Styling for header */
 #main-header {
   margin-left: 8%;
   margin-right: 8%;
@@ -85,7 +150,7 @@ h4 {
   text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
-
+/* Styling for headshot pic */
 #headshot-size {
   width: 200px;
   height: 300px;
@@ -98,7 +163,7 @@ h4 {
   border-width: 3px;
 }
 
-
+/* Styling for name, job postion, contact info*/
 #first-glance-info {
   display: inline-block;
   text-align: center;
@@ -108,6 +173,7 @@ h4 {
   padding-top: 0;
 }
 
+/* Styling for intro in header*/
 #about-me {
   display: inline-block;
   text-align: left;
@@ -117,6 +183,7 @@ h4 {
   margin-left: 10%;
 }
 
+/* About me alignment */
 #about-me-header {
   text-align: center;
 }
@@ -126,70 +193,20 @@ h4 {
   font-size: 25px;
 }
 
+/* Alignment */
 #contact-info-section {
   width: 25%;
   padding-left: 2%;
   height: 100%;
 }
 
-.section-header {
-  padding-top: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align:left;
-}
-
+/* Alignment for Job in header above conact info */
 #description-header {
   padding-top: 10px;
   font-size: large;
 }
 
-.contact-info-text {
-padding-left: 10%;
-text-align: left;
-font-size: 25px;
-}
-
-.contact-info {
-margin-left: 25%;
-padding: 2%;
-text-align: left;
-}
-
-.dates {
-  display: inline-block;
-  max-width: 150px;
-  vertical-align: top;
-}
-
-.item-description {
-  margin-left: 75px;
-  display: inline-block;
-  max-width: 60%;
-  vertical-align: top;
-}
-
-#programming-skills {
-  display: inline-block;
-  vertical-align: top;
-}
-
-#software-skills {
-  display: inline-block;
-  margin-left: 50px;
-  vertical-align: top;
-  overflow: hidden;
-
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  font-size:30px;
-  padding-bottom: 3%;
-}
-
+/* Main body split into three section... Left, Middle, Right */
 #left-section {
   display: inline-block;
   vertical-align: top;
@@ -210,11 +227,29 @@ li {
   height: 10%;
 }
 
+
+/* Alignment for programming skills list */
+#programming-skills {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Alignment for software skills list */
+#software-skills {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
+  overflow: hidden;
+
+}
+
+/* Alignment for hobbies list */
 #Hobbies-list {
   width: 50%;
   vertical-align: top;
 }
 
+/* Alignment images */
 #image-barney {
   width: 700px;
   height: auto;
@@ -226,19 +261,4 @@ li {
   width: 400px;
   height: 300px;
   vertical-align: top;
-}
-
-.coding-tag::before {
-  font-family: 'FontAwesome';
-  content: '\f121';
-}
-
-.classes-list-icon::before {
-  font-family: 'FontAwesome';
-  content: '\f19d';
-}
-
-.classes-list-icon {
-  margin: 10px 0;
-  width: 400px;
 }
